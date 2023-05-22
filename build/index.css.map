@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AACI;EACI;AAAR,C","sources":["webpack://wordpress-dashboard-widget-reacjs/./src/main.scss"],"sourcesContent":["div{\n    p{\n        padding: 60px 0;\n    }\n}"],"names":[],"sourceRoot":""}

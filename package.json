@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-dashboard-widget-reacjs",
+  "version": "1.0.0",
+  "description": "dashboard-widget-recjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "^26.4.0",
+    "chart.js": "^4.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rechart": "^0.0.1",
+    "recharts": "^2.6.2"
+  }
+}

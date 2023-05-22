@@ -1,0 +1,13 @@
+.dashboard-widget-container {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-widget-select {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-widget-chart {
+    width: 100%;
+    height: 300px;
+  }
+  

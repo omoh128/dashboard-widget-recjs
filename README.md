@@ -1,2 +1,2 @@
-# dashboard-widget-recjs
-dashboard-widget-recjs
+# dashboard-widget-react.js
+dashboard-widget-react.js
