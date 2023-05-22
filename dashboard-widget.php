@@ -54,7 +54,7 @@ class DashboardWidget
      */
     public function add_dashboard_widget()
     {
-        wp_add_dashboard_widget('dashboard_widget', 'Plugin Dashboard Widget', array($this, '_dashboard_widget'));
+        wp_add_dashboard_widget('dashboard_widget', 'Plugin Dashboard Widget', array($this, 'dashboard_widget'));
     }
 
     /**
