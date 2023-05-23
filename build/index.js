@@ -46,13 +46,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/LineChart.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/CartesianGrid.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Line.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/LineChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/CartesianGrid.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Line.js");
+/* harmony import */ var _Dashboardwidget_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Dashboardwidget.css */ "./src/components/Dashboardwidget.css");
+
 
 
 
@@ -83,15 +85,15 @@ const DashboardWidget = () => {
     value: "15"
   }, "Last 15 days"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("option", {
     value: "30"
-  }, "Last 1 month")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_3__.LineChart, {
+  }, "Last 1 month")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_4__.LineChart, {
     width: 500,
     height: 300,
     data: data
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_4__.CartesianGrid, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_5__.CartesianGrid, {
     strokeDasharray: "3 3"
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_5__.XAxis, {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_6__.XAxis, {
     dataKey: "date"
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_6__.YAxis, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_7__.Tooltip, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_8__.Legend, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_9__.Line, {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_7__.YAxis, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_8__.Tooltip, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_9__.Legend, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(recharts__WEBPACK_IMPORTED_MODULE_10__.Line, {
     type: "monotone",
     dataKey: "value",
     stroke: "#8884d8"
@@ -10029,6 +10031,19 @@ var createCaseFirst = __webpack_require__(/*! ./_createCaseFirst */ "./node_modu
 var upperFirst = createCaseFirst('toUpperCase');
 
 module.exports = upperFirst;
+
+
+/***/ }),
+
+/***/ "./src/components/Dashboardwidget.css":
+/*!********************************************!*\
+  !*** ./src/components/Dashboardwidget.css ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
 
 
 /***/ }),

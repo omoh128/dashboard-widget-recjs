@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import './Dashboardwidget.css';
 
 const DashboardWidget = () => {
   const [data, setData] = useState([]);
